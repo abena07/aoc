@@ -19,6 +19,8 @@ def analyzeSafeReports(file_path):
         total_diff.append(diff_list)
 
 
+    print("total_diff", total_diff)
+
     filtered_list = []
     for item in total_diff:
         strictly_decreasing = 0
@@ -47,5 +49,5 @@ def analyzeSafeReports(file_path):
 
 
 
-file_path = "part1.txt"
+file_path = "sample.txt"
 print(analyzeSafeReports(file_path))
