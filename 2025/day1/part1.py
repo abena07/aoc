@@ -6,10 +6,8 @@ def secret_entrance(file_path):
     with open(file_path, "r") as file:
         items = file.read().splitlines()
     
-    print("items", items )
     for item in items:
         arr.append([item[0], int(item[1:])])
-    print("arr:", arr)
         
     for idx, val in arr:
         if idx == "L":
