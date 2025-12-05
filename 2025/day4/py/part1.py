@@ -28,6 +28,4 @@ def printing_department(input_path):
                     res +=1
     return res
                     
-
-input_path = "input.txt"
 print(printing_department("../input.txt"))

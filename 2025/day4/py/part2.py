@@ -28,7 +28,6 @@ def printing_department(input_path):
                                     
                     if count < 4:
                         res +=1
-                        print("res", res)
                         matrix[r][c] = "x"
                         
         if res == 0:
@@ -36,6 +35,4 @@ def printing_department(input_path):
         total += res
     return total
                     
-
-input_path = "input.txt"
 print(printing_department("../input.txt"))
