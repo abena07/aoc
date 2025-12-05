@@ -29,6 +29,5 @@ def lobby(input_path):
         
       
         
-
 input_path = "input.txt"
 print(lobby(INPUT_PATH))
